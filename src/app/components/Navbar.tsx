@@ -12,10 +12,13 @@ const navItems: NavItem[] = [
   { name: 'Users', href: '/pages/users' },
   { name: 'Contact', href: '/pages/contact' },
   { name: 'Login', href: '/pages/login' },
+  { name: 'Users Panel' , href: '/pages/usersPanel'}
 ];
 
 const Navbar: React.FC = () => {
+  
   return (
+
     <nav className="bg-blue-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
